@@ -1,0 +1,206 @@
+[
+  {
+    "_id": "F001",
+    "name": "Green Valley Football Turf",
+    "facility_type": "Football",
+    "image": "https://images.unsplash.com/photo-1517466787929-bc90951d0974",
+    "location": "Dhanmondi, Dhaka",
+    "price_per_hour": 1800,
+    "capacity": 14,
+    "available_slots": [
+      "08:00 AM - 09:00 AM",
+      "10:00 AM - 11:00 AM",
+      "06:00 PM - 07:00 PM"
+    ],
+    "description": "Premium artificial grass football turf with LED floodlights and modern changing rooms.",
+    "owner_email": "owner1@sportsphere.com",
+    "booking_count": 18
+  },
+  {
+    "_id": "F002",
+    "name": "Elite Badminton Arena",
+    "facility_type": "Badminton",
+    "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea",
+    "location": "Banani, Dhaka",
+    "price_per_hour": 900,
+    "capacity": 4,
+    "available_slots": [
+      "09:00 AM - 10:00 AM",
+      "11:00 AM - 12:00 PM",
+      "07:00 PM - 08:00 PM"
+    ],
+    "description": "Indoor badminton courts with professional flooring and air conditioning.",
+    "owner_email": "owner2@sportsphere.com",
+    "booking_count": 25
+  },
+  {
+    "_id": "F003",
+    "name": "Blue Wave Swimming Pool",
+    "facility_type": "Swimming",
+    "image": "https://images.unsplash.com/photo-1519315901367-f34ff9154487",
+    "location": "Gulshan, Dhaka",
+    "price_per_hour": 700,
+    "capacity": 12,
+    "available_slots": [
+      "07:00 AM - 08:00 AM",
+      "04:00 PM - 05:00 PM",
+      "05:00 PM - 06:00 PM"
+    ],
+    "description": "Olympic-style swimming pool with certified lifeguards and clean facilities.",
+    "owner_email": "owner3@sportsphere.com",
+    "booking_count": 32
+  },
+  {
+    "_id": "F004",
+    "name": "Ace Tennis Club",
+    "facility_type": "Tennis",
+    "image": "https://images.unsplash.com/photo-1542144582-1ba00456b5e3",
+    "location": "Uttara, Dhaka",
+    "price_per_hour": 1200,
+    "capacity": 4,
+    "available_slots": [
+      "08:00 AM - 09:00 AM",
+      "03:00 PM - 04:00 PM",
+      "06:00 PM - 07:00 PM"
+    ],
+    "description": "Outdoor hard tennis courts with night lighting and seating area.",
+    "owner_email": "owner4@sportsphere.com",
+    "booking_count": 15
+  },
+  {
+    "_id": "F005",
+    "name": "Victory Basketball Court",
+    "facility_type": "Basketball",
+    "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc",
+    "location": "Mirpur, Dhaka",
+    "price_per_hour": 1000,
+    "capacity": 10,
+    "available_slots": [
+      "09:00 AM - 10:00 AM",
+      "01:00 PM - 02:00 PM",
+      "08:00 PM - 09:00 PM"
+    ],
+    "description": "Full-size indoor basketball court with premium wooden flooring.",
+    "owner_email": "owner5@sportsphere.com",
+    "booking_count": 22
+  },
+  {
+    "_id": "F006",
+    "name": "Champion Cricket Net",
+    "facility_type": "Cricket",
+    "image": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e",
+    "location": "Mohammadpur, Dhaka",
+    "price_per_hour": 850,
+    "capacity": 8,
+    "available_slots": [
+      "08:00 AM - 09:00 AM",
+      "02:00 PM - 03:00 PM",
+      "05:00 PM - 06:00 PM"
+    ],
+    "description": "Professional cricket practice nets with bowling machine support.",
+    "owner_email": "owner6@sportsphere.com",
+    "booking_count": 14
+  },
+  {
+    "_id": "F007",
+    "name": "Skyline Futsal Arena",
+    "facility_type": "Football",
+    "image": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a",
+    "location": "Bashundhara, Dhaka",
+    "price_per_hour": 1600,
+    "capacity": 10,
+    "available_slots": [
+      "09:00 AM - 10:00 AM",
+      "04:00 PM - 05:00 PM",
+      "07:00 PM - 08:00 PM"
+    ],
+    "description": "Modern futsal court with synthetic turf and digital scoreboard.",
+    "owner_email": "owner7@sportsphere.com",
+    "booking_count": 28
+  },
+  {
+    "_id": "F008",
+    "name": "Pro Volleyball Court",
+    "facility_type": "Volleyball",
+    "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1",
+    "location": "Farmgate, Dhaka",
+    "price_per_hour": 950,
+    "capacity": 12,
+    "available_slots": [
+      "10:00 AM - 11:00 AM",
+      "03:00 PM - 04:00 PM",
+      "06:00 PM - 07:00 PM"
+    ],
+    "description": "Indoor volleyball court suitable for tournaments and training sessions.",
+    "owner_email": "owner8@sportsphere.com",
+    "booking_count": 11
+  },
+  {
+    "_id": "F009",
+    "name": "Royal Table Tennis Hub",
+    "facility_type": "Table Tennis",
+    "image": "https://images.unsplash.com/photo-1526232761682-d26e03ac148e",
+    "location": "Motijheel, Dhaka",
+    "price_per_hour": 500,
+    "capacity": 2,
+    "available_slots": [
+      "09:00 AM - 10:00 AM",
+      "12:00 PM - 01:00 PM",
+      "07:00 PM - 08:00 PM"
+    ],
+    "description": "Professional table tennis hall with international standard tables.",
+    "owner_email": "owner9@sportsphere.com",
+    "booking_count": 19
+  },
+  {
+    "_id": "F010",
+    "name": "Power Gym Zone",
+    "facility_type": "Gym",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+    "location": "Badda, Dhaka",
+    "price_per_hour": 400,
+    "capacity": 25,
+    "available_slots": [
+      "06:00 AM - 07:00 AM",
+      "05:00 PM - 06:00 PM",
+      "08:00 PM - 09:00 PM"
+    ],
+    "description": "Fully equipped fitness gym with cardio and strength training equipment.",
+    "owner_email": "owner10@sportsphere.com",
+    "booking_count": 40
+  },
+  {
+    "_id": "F011",
+    "name": "Prime Squash Court",
+    "facility_type": "Squash",
+    "image": "https://images.unsplash.com/photo-1599058917765-a780eda07a3e",
+    "location": "Niketon, Dhaka",
+    "price_per_hour": 1100,
+    "capacity": 2,
+    "available_slots": [
+      "08:00 AM - 09:00 AM",
+      "01:00 PM - 02:00 PM",
+      "06:00 PM - 07:00 PM"
+    ],
+    "description": "International standard squash courts with spectator seating.",
+    "owner_email": "owner11@sportsphere.com",
+    "booking_count": 9
+  },
+  {
+    "_id": "F012",
+    "name": "Arena Multi Sports Center",
+    "facility_type": "Multi Sports",
+    "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+    "location": "Purbachal, Dhaka",
+    "price_per_hour": 2200,
+    "capacity": 30,
+    "available_slots": [
+      "09:00 AM - 10:00 AM",
+      "02:00 PM - 03:00 PM",
+      "07:00 PM - 08:00 PM"
+    ],
+    "description": "Large multi-sports complex for football, basketball, volleyball, and indoor games.",
+    "owner_email": "owner12@sportsphere.com",
+    "booking_count": 35
+  }
+]
