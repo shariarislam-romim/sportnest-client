@@ -20,7 +20,7 @@ const Hero = () => {
 
     return (
         <section 
-        className="relative overflow-hidden pt-12 pb-24 md:pt-24 md:pb-32 bg-linear-to-r from-green-700 via-green-800 to-green-700">
+        className="relative overflow-hidden pt-12 pb-12 md:pt-24 md:pb-32 bg-linear-to-r from-green-700 via-green-800 to-green-700">
 
             <Swiper
                 navigation
