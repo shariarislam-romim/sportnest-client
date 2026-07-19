@@ -14,7 +14,7 @@ const allData = await res.json();
 console.log(allData);
 
     return (
-        <section className="py-6 bg-slate-200">
+        <section className="py-6 pt-20 bg-slate-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-12">
                     <div className="space-y-4">
@@ -27,7 +27,7 @@ console.log(allData);
                     <Button
                         variant="flat"
                         color="primary"
-                        className="rounded-full font-bold group"
+                        className="rounded-full font-bold group text-black inline-flex items-center text-lg "
                     >
                         View All Facilities <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </Button>

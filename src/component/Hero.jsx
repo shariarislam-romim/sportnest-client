@@ -20,7 +20,7 @@ const Hero = () => {
 
     return (
         <section 
-        className="relative overflow-hidden pt-12 pb-12 md:pt-24 md:pb-32 bg-linear-to-r from-green-700 via-green-800 to-green-700">
+        className="relative overflow-hidden pt-12 pb-10 md:pt-24 md:pb-20 bg-linear-to-r from-green-700 via-green-800 to-green-700">
 
             <Swiper
                 navigation
@@ -85,7 +85,7 @@ const Hero = () => {
                                         src={FootballTurf}
                                         alt="Learning"
                                         fill
-                                        className="rounded-[2rem] object-cover transform transition duration-700 group-hover:scale-105"
+                                        className="rounded-4xl object-cover transform transition duration-700 group-hover:scale-105"
                                     />
                                     
                                 </div>
@@ -153,7 +153,7 @@ const Hero = () => {
                                         src={Badminton}
                                         alt="Learning"
                                         fill
-                                        className="rounded-[2rem] object-cover transform transition duration-700 group-hover:scale-105"
+                                        className="rounded-4xl object-cover transform transition duration-700 group-hover:scale-105"
                                     />
                                     
                                 </div>
@@ -161,8 +161,6 @@ const Hero = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                
-                
 
             </Swiper>
 
