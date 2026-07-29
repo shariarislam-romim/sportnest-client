@@ -35,7 +35,7 @@ console.log(allData);
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {
-                        allData?.slice(0,6).map(data => <FacilityCard key={data?._id} data={data} />)
+                        allData?.slice(0,6).map(facility => <FacilityCard key={facility?._id} facility={facility} />)
                     }
 
                 </div>
