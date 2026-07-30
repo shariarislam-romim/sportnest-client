@@ -1,3 +1,4 @@
+
 import Choose from "@/component/Choose";
 import Facilities from "@/component/Facilities";
 import Hero from "@/component/Hero";
@@ -11,6 +12,8 @@ export default function Home() {
       <Facilities/>
       <Choose/>
       <HowBooking/>
+     
+      
     </div>
   );
 }

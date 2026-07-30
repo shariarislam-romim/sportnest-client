@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const FacilityCard = ({facility}) => {
-    const { _id, name, facility_type,image,location,price_per_hour } = facility;
+    const { _id, name, facility_type,image,location,price_per_hour,capacity,available_slots } = facility;
 
 
     return (
