@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const FacilityCard = ({facility}) => {
-    const { _id, name, facility_type,image,location,price_per_hour,capacity,available_slots } = facility;
+    const { _id, name, facility_type,image,location,price_per_hour } = facility;
 
 
     return (
@@ -32,7 +32,7 @@ const FacilityCard = ({facility}) => {
                 </div>
             </div>
             <div className="p-5 flex flex-col grow space-y-3">
-                <Link href={`/allData/${_id}`}>
+                <Link href={`/facilities/${_id}`}>
                     <h4 className="font-bold text-slate-900 line-clamp-2 group-hover:text-blue-400 transition-colors">
                         {name}
                     </h4>

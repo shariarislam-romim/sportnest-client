@@ -1,14 +1,16 @@
 import { Button } from "@heroui/react";
 import { ArrowRight } from "lucide-react";
 import FacilityCard from "./FacilityCard";
+import { fetchFacilities } from "@/lib/facilities/data";
 
 
 const Facilities = async () => {
-    // const courses = await fetchFeaturedCourses();
-    // console.log(courses);
     const res = await fetch("http://localhost:3000/data.json", {
-  cache: "no-store",
-});
+         cache: "no-store",
+       
+    // const facilities = await fetchFacilities();
+    // console.log(courses);
+ });
 
 const allData = await res.json();
 console.log(allData);
