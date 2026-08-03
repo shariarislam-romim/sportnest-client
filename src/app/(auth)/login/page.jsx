@@ -8,7 +8,7 @@ import { Mail, Lock, ArrowRight } from 'lucide-react';
 
 import Image from 'next/image';
 import Google from '../../images/google-logo.png'
-import { signIn } from '@/lib/auth-client';
+import {  signIn } from '@/lib/auth-client';
 import { useRouter } from 'next/navigation';
 import toast from 'react-hot-toast';
 
@@ -26,16 +26,19 @@ export default function Login() {
     
             const { data, error } = await signIn.email({
                 ...loginData,
-                // callbackURL:"/"
+                callbackURL:"/"
                 
             })
     
+            // const {data:tokenData} = await authClient.token()
+            // console.log(tokenData)
+
             if(error){
                 // console.log(error.message)
                 toast.error("Login Failed");
                 return;
             };
-            router.push("/")
+            // router.push("/")
         }
 
     return (

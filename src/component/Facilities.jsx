@@ -13,7 +13,7 @@ const Facilities = async () => {
  });
 
 const allData = await res.json();
-console.log(allData);
+// console.log(allData);
 
     return (
         <section className="py-6 pt-20 bg-slate-200">

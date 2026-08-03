@@ -1,20 +1,29 @@
 
-
 import BookingForm from '@/component/BookingForm';
+import { auth } from '@/lib/auth';
 import { Button, Chip } from '@heroui/react';
 import {  BarChart, Users, Share2, CircleCheck,  SquareEqual, PanelTopOpen } from 'lucide-react';
-import { Share } from 'next/font/google';
+import { headers } from 'next/headers';
 import Image from 'next/image';
 
-const fetchSingleFacility = async (id)=>{
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/facilities/${id}`)
+const fetchSingleFacility = async (id,token)=>{
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/facilities/${id}`,{
+        headers: {
+            authorization: `Bearer ${token}` || ""
+        },
+    });
     const data = await res.json();
     return data || {};
 }
 
 export default async function FacilityDetails({params}) {
     const {id} = await params;
-    const facility = await fetchSingleFacility(id);
+    const {token} = await auth.api.getToken({
+            headers: await headers(),
+    });
+    // console.log(token);
+
+    const facility = await fetchSingleFacility(id, token);
     // console.log(facility)
     const { _id, name, facility_type,image,location,price_per_hour,capacity,available_slots, description,booking_count } = facility;
    
